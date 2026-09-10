@@ -41,18 +41,20 @@ Tufted Titmice are very adorable birds, at least in my opinion. You can recogniz
 or they might sound like:
 > _tsee day-day-day_, an alarm call.
 
-## How frequently were my favorite birds seen in Rock Creek Park in the last 5 years? [^2]
+## What months were my favorite birds seen in Rock Creek Park in the last 5 years? [^2]
 
-| Bird Species | Jan | Feb | Mar | Apr | May | June | July | Aug | Sept | Oct | Nov | Dec |
-| ------------ | --- | --- | --- | --- | --- | ---- | ---- | --- | ---- | --- | --- | --- |
-| 
+| Bird Species           | Jan | Feb | Mar | Apr | May | June | July | Aug | Sept | Oct | Nov | Dec |
+| -----------------------| --- | --- | --- | --- | --- | ---- | ---- | --- | ---- | --- | --- | --- |
+| Tufted Titmouse        | ✅  | ✅  | ✅  | ✅  | ✅   | ✅   | ✅   | ✅   | ✅   | ✅  | ✅  | ✅ |
+| Golden-crowned Kinglet | ✅  | ✅  | ✅  | ✅  | ❌   | ❌   | ❌   | ❌   | ✅   | ✅  | ✅  | ✅ |
+| American Oystercatcher | ❌  | ❌  | ❌  | ❌  | ❌   | ❌   | ❌   | ❌   | ❌   | ❌  | ❌  | ❌ |
+| Osprey                 | ❌  | ❌  | ✅  | ✅  | ✅   | ✅   | ✅   | ✅   | ✅   | ✅  | ❌  | ❌ |
+| Red-winged Blackbird   | ❌  | ✅  | ✅  | ✅  | ✅   | ✅   | ✅   | ✅   | ✅   | ✅  | ✅  | ❌ |
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
->
+Unfortunately, there are no American Oystercatchers seen in Rock Creek Park. 
 
-
-
+## What month should I go to Rock Creek Park to have the best chance of seeing my favorite birds?
+ 
 [^1]: (As of September 10th, 2026), accessed here:(https://ebird.org/hotspot/L599606/bird-list?yr=cur "Rock Creek Park eBird Checklists")
 [^2]: (As of September 10th, 2026), accessed here:(https://ebird.org/barchart?byr=2026&eyr=2026&bmo=1&emo=12&r=L599606 "Rock Creek Park eBird Bird Observation Histograms")
 
