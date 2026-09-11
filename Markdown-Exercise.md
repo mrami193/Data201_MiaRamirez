@@ -1,8 +1,7 @@
 # **DATA 201 Homework 1**
-Mia Ramirez
-Thursday, September 10th, 2026
+### Mia Ramirez | Thursday, September 10th, 2026
 
-Welcome to my first assignment for the DATA 201 course. Join us in our exploration of different bird species found in Rock Creek Park.
+Welcome to my first assignment for the DATA 201 course. Join us in my exploration of different bird species found in Rock Creek Park.
 
 #
 ## What are my favorite Maryland birds?
@@ -26,7 +25,7 @@ Welcome to my first assignment for the DATA 201 course. Join us in our explorati
 9. American Crow
 10. Tufted Titmouse
 
-## Which of the listed birds seen in Rock Creek Park are on my list of favorite birds?
+## Which of the previously listed birds seen in Rock Creek Park are on my list of favorite birds?
 
 + Drumroll please.
 + ..
@@ -54,31 +53,41 @@ or they might sound like:
 Unfortunately, there are no American Oystercatchers seen in Rock Creek Park. 
 
 ## What month should I go to Rock Creek Park to have the best chance of seeing my favorite birds?
- 
-[^1]: (As of September 10th, 2026), accessed here:(https://ebird.org/hotspot/L599606/bird-list?yr=cur "Rock Creek Park eBird Checklists")
-[^2]: (As of September 10th, 2026), accessed here:(https://ebird.org/barchart?byr=2026&eyr=2026&bmo=1&emo=12&r=L599606 "Rock Creek Park eBird Bird Observation Histograms")
 
-
-Demonstrate: - Inline code using single backticks
-
-    A multi-line code block using triple backticks
-    ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
+Using python, I can create a data frame based on the information above.
 ```python
-s = "Python syntax highlighting"
-print s
-```
+import pandas as pd
+
+# initialize data of lists.
+birds = {'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+'TUTI':[1,1,1,1,1,1,1,1,1,1,1,1],
+'GCKI':[1,1,1,1,0,0,0,0,1,1,1,1],
+'AMOY':[0,0,0,0,0,0,0,0,0,0,0,0],
+'OSPR':[0,0,1,1,1,1,1,1,1,1,0,0],
+'RWBL':[0,1,1,1,1,1,1,1,1,1,1,0]}
+
+# Create DataFrame
+df = pd.DataFrame(birds).set_index('Month')
+
+# Get Counts
+counts = (df == 1).sum(axis=1)
+print(counts.sort_values(ascending=False))
  
+#
+```
+Based on the above, Five months give me the chance to see 4 of my favorite species. I should go birdwatching in Rock Creek Park during  March, April, August, September, or October!
 
-10. Task List
+Thanks for taking a peek into the world of bird watching, and learning more about some of my favorite species. If you'd like continue the bird fun...
 
-Create a task list with at least three items, and check off at least one item.
+- [x] Learn Mia's favorite bird species (congrats, you did this!)
+- [ ] [Explore the eBird website tutorial on birdwatching](https://ebird.org/about/resources "Explore the eBird website tutorial on birdwatching")
+- [ ] [Look for your local birding hotspots](https://ebird.org/hotspots "Look for your local birding hotspots") 
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+Until next time! 🫡 🐦
+
+[^1]: (As of September 10th, 2026), accessed here:[Rock Creek Park eBird Checklists](https://ebird.org/hotspot/L599606/bird-list?yr=cur "Rock Creek Park eBird Checklists")
+[^2]: (As of September 10th, 2026), accessed here:[Rock Creek Park eBird Bird Observation Histograms](https://ebird.org/barchart?byr=2026&eyr=2026&bmo=1&emo=12&r=L599606 "Rock Creek Park eBird Bird Observation Histograms")
+
+
 
 
